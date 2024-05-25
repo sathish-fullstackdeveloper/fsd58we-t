@@ -8,7 +8,7 @@ querySelector
 
 - is used to select html elements (id, class, tag) from the DOM
 
-- [ ] Window - Common Util functions
+- [x] Window - Common Util functions
 - [ ] setTimeout vs setInterval
 - [ ] prompt, Alert, confirm
 - [ ] Working with events

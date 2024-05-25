@@ -10,10 +10,24 @@ querySelector
 
 - [x] Window - Common Util functions
 - [ ] setTimeout vs setInterval
-- [ ] prompt, Alert, confirm
+- [x] prompt, Alert, confirm
 - [ ] Working with events
 
 textContent vs innerText
 
 - textContent - returns all the text content of a node
 - innerText - returns the text content of a node and its descendants
+
+window object
+
+- is the global object in client side.
+- represents the browser window.
+- example: document, location, alert, localStorage, etc.
+
+setTimeout
+
+- executes a function, once after waiting a specified number of milliseconds
+
+setInterval
+
+- executes a function, over and over again, at specified time intervals

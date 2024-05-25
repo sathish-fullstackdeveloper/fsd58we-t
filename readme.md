@@ -2,8 +2,8 @@
 
 ## Contents
 
-[ ] Document Object - querySelector, querySelectorAll
-[ ] Window - Common Util functions
-[ ] setTimeout vs setInterval
-[ ] prompt, Alert, confirm
-[ ] Working with events
+- [ ] Document Object - querySelector, querySelectorAll
+- [ ] Window - Common Util functions
+- [ ] setTimeout vs setInterval
+- [ ] prompt, Alert, confirm
+- [ ] Working with events

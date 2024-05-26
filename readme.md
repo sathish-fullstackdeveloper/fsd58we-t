@@ -2,7 +2,7 @@
 
 ### Contents:
 
--[ ] Callback
+-[x] Callback
 
 Callback is a function that is passed as an argument to another function.
 
@@ -12,8 +12,14 @@ example:
 - setTimeout function takes a callback function as an argument.
 - event listeners in javascript takes a callback function as an argument.
 
--[ ] What's the callback?  
--[ ] Use & its purpose of the callback  
+-[x] What's the callback?
+
+A callback is a function that is passed as an argument to another function. This function is executed after the completion of the task.
+
+-[x] Use & its purpose of the callback  
+
+- Callbacks are used to handle the asynchronous nature of javascript.
+
 -[ ] Pain of callback
 
 ### Pre-read:

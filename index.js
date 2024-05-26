@@ -1,30 +1,13 @@
-// named function
-// function sayHello() {
-//     console.log('Hello');
-// }
+let paragraph = document.createElement('p');
+paragraph.textContent = '10';
 
-// sayHello();
+document.body.appendChild(paragraph);
 
-// anonymous function or nameless function or function expression
-// let sayHello = function () {
-//     console.log('Hello');
-// }
+const interval = setInterval(() => {
+    paragraph.textContent = parseInt(paragraph.textContent) - 1;
+}, 1000);
 
-// sayHello();
-
-// arrow function or fat arrow function
-// let sayHello = () => {
-//     console.log('Hello');
-// }
-
-// sayHello();
-
-// IIFE - Immediately Invoked Function Expression
-// (() => {
-//     console.log('Hello');
-// })();
-
-// IIFE - Immediately Invoked Function Expression
-(function () {
-    console.log('Hello');
-})();
+setTimeout(() => {
+    clearInterval(interval);
+    paragraph.textContent = 'Happy Independence Day!';
+}, 10000);

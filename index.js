@@ -1,27 +1,27 @@
-// create a small notification in the top of the screen.
-const timer = document.getElementById('timer');
+/*
+    Callback Functions
+*/
 
-let seconds = 0;
+/*
+    setTimeout: Give me a function and I will call it after a certain amount of time!
 
-function updateTime() {
-    seconds++;
-    timer.innerText = '00:' + (seconds < 10 ? '0' + seconds : seconds);
-}
+    Give me your number, I will call you later!
+*/
+// let sayHello = function () {
+//     console.log('hello');
+// }
 
-let runTimer;
+// setTimeout(sayHello, 3000);
 
-const startButton = document.getElementById('start');
-const stopButton = document.getElementById('stop');
+// function incBy10(number) {
+//     return number + 10;
+// }
 
-startButton.addEventListener('click', () => {
-    runTimer = setInterval(updateTime, 1000);
-    startButton.disabled = true;
-    stopButton.disabled = false;
-})
+// function arithmetic(N, incBy10) {
+//     console.log(incBy10(N) * 2);
+// }
 
+// let N = 5;
 
-stopButton.addEventListener('click', () => {
-    clearInterval(runTimer);
-    startButton.disabled = false;
-    stopButton.disabled = true;
-})
+// arithmetic(N, incBy10);
+

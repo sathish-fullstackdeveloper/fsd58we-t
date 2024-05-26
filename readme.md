@@ -1,33 +1,21 @@
-# DOM - Day - 2: Document Vs Window
+## Async programming- Day -1 : Callback
 
-## Contents
+### Contents:
 
-- [x] Document Object - querySelector, querySelectorAll
+-[ ] Callback
 
-querySelector
+Callback is a function that is passed as an argument to another function.
 
-- is used to select html elements (id, class, tag) from the DOM
+example:
 
-- [x] Window - Common Util functions
-- [x] setTimeout vs setInterval
-- [x] prompt, Alert, confirm
-- [x] Working with events
+- array.map method takes a callback function as an argument.
+- setTimeout function takes a callback function as an argument.
+- event listeners in javascript takes a callback function as an argument.
 
-textContent vs innerText
+-[ ] What's the callback?  
+-[ ] Use & its purpose of the callback  
+-[ ] Pain of callback
 
-- textContent - returns all the text content of a node
-- innerText - returns the text content of a node and its descendants
+### Pre-read:
 
-window object
-
-- is the global object in client side.
-- represents the browser window.
-- example: document, location, alert, localStorage, etc.
-
-setTimeout
-
-- executes a function, once after waiting a specified number of milliseconds
-
-setInterval
-
-- executes a function, over and over again, at specified time intervals
+https://www.freecodecamp.org/news/JavaScript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/

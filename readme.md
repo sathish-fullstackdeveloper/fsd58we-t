@@ -16,11 +16,15 @@ example:
 
 A callback is a function that is passed as an argument to another function. This function is executed after the completion of the task.
 
--[x] Use & its purpose of the callback  
+-[x] Use & its purpose of the callback
 
 - Callbacks are used to handle the asynchronous nature of javascript.
 
--[ ] Pain of callback
+-[x] Pain of callback
+
+- Callback hell
+
+It is a situation where you have multiple nested callbacks. It makes the code difficult to read and maintain.
 
 ### Pre-read:
 

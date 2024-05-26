@@ -1,32 +1,30 @@
-// callback hell or pain of callback
-function firstTask(callback) {
-    console.log('starting first task...');
-    setTimeout(() => {
-        console.log('first task done');
-        callback();
-    }, 3000);
-}
+// named function
+// function sayHello() {
+//     console.log('Hello');
+// }
 
-function secondTask(callback) {
-    console.log('starting second task...');
-    setTimeout(() => {
-        console.log('second task done');
-        callback();
-    }, 4000);
-}
+// sayHello();
 
-function thirdTask(callback) {
-    console.log('starting third task...');
-    setTimeout(() => {
-        console.log('third task done');
-        callback();
-    }, 5000);
-}
+// anonymous function or nameless function or function expression
+// let sayHello = function () {
+//     console.log('Hello');
+// }
 
-firstTask(function () {
-    secondTask(function () {
-        thirdTask(function () {
-            console.log('all tasks done');
-        });
-    });
-});
+// sayHello();
+
+// arrow function or fat arrow function
+// let sayHello = () => {
+//     console.log('Hello');
+// }
+
+// sayHello();
+
+// IIFE - Immediately Invoked Function Expression
+// (() => {
+//     console.log('Hello');
+// })();
+
+// IIFE - Immediately Invoked Function Expression
+(function () {
+    console.log('Hello');
+})();
